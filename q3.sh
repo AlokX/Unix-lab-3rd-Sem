@@ -1,10 +1,5 @@
 # <----------QUESTION----------->
-# Write a program to find the value of one number raised to the value of another.
-# The numbers are entered through the keyboard.
+# Write shell scripts which works similar to the following Unix commands, head,tail,more.
+# Try to incorporate as many options as possible that are available with these Unix commands.
 # <----------QUESTION----------->
 
-#!/bin/bash
-read -p "Enter the number: " num
-read -p "Enter the power: " power
-echo -n "$num^$power: "
-echo "$num^$power" | bc
